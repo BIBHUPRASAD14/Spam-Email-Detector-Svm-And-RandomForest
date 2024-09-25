@@ -41,14 +41,18 @@ To run this project, you need to have the following Python libraries installed:
 
 You can install these libraries using pip:
 
+```bash
 pip install pandas numpy matplotlib scikit-learn
+```
 
 ## Usage
 
 1. Ensure you have your `mail_data.csv` file in the same directory as the script.
 2. Run the script using Python:
 
+```bash
    python spam_classification.py
+```
 
 3. The script will output the accuracy of each model and display a bar chart comparing their accuracies. Additionally, a second plot will show the precision, recall, and F1 scores for both models.
 
